@@ -20,3 +20,4 @@ Route::get('image-upload', [ ImageUploadController::class, 'imageUpload' ])->nam
 Route::post('image-upload', [ ImageUploadController::class, 'imageUploadPost' ])->name('image.upload.post');
 Route::get('image-show', [ ImageUploadController::class, 'showResizedImages' ])->name('image.show');
 
+
